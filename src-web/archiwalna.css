@@ -1,0 +1,116 @@
+body
+{
+    background-color: rgb(230, 230, 230);
+}
+#archiwalne_okno
+{
+    background-color: rgb(230, 230, 230);
+    border: 2px solid rgb(75, 75 ,75);
+    border-radius: 5px 0px 0px 5px;
+    box-sizing: border-box;
+    height: 96vh;
+    margin: 2vh 0;
+    left: 304px;
+    position: absolute;
+    top: 0px;
+    transition: 0.2s ease-in-out;
+    width: 150px;
+    opacity: 0;
+    z-index: 1;
+}
+#archiwalne_lista
+{
+    height: calc(100% - 25px);
+    overflow-y: auto;
+    width: 100%; 
+}
+#archiwalne_zwin
+{
+    border: 0;
+    border-top: 2px solid rgb(75, 75 ,75);
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 25px;
+    padding: 4px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+}
+#archiwalne_rozwin:hover, #archiwalne_zwin:hover, #chat_wyloguj:hover
+{
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+.archiwalne_link
+{
+    border: 0;
+    font-size: 14px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+.archiwalne_link:hover
+{
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+#archiwalna_wybrana
+{
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+table
+{   
+    background-color: rgb(210, 210, 210);
+	border-collapse: collapse;
+	font-size: 14px;
+	margin: auto;
+	text-align: center;
+    width: 90vw;
+}
+th
+{
+    border: 2px solid rgb(75, 75 ,75);
+    font-size: 16px;
+	padding: 3px 10px;
+}
+td
+{
+    border: 2px solid rgb(75, 75 ,75);
+    font-size: 14px;
+	padding: 3px 10px;
+}
+tr
+{
+    transition: 0.2s ease;
+}
+tr:not(:first-child):hover
+{
+    background-color: white;
+}
+#archiwalne_zamknij
+{
+    background-color: #146433;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    transition: 0.2s ease-in-out;
+    width: 300px;
+}
+#archiwalne_zamknij:hover
+{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
